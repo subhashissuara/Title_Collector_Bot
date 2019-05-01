@@ -20,10 +20,10 @@ print("Opening database...")
 fout = open("Database.txt", "a+")
 
 reddit = praw.Reddit(client_id= ' ',         
-					 client_secret= ' ',
-					 username= ' ',
-					 password= ' ',
-					 user_agent= 'Created by u/QuantumBrute') # Login to reddit API
+		     client_secret= ' ',
+		     username= ' ',
+		     password= ' ',
+		     user_agent= 'Created by u/QuantumBrute') # Login to reddit API
 
 def titles():
 	try:
